@@ -718,7 +718,7 @@
 
     var charCode = input.charCodeAt(index)
       , next = input.charCodeAt(index + 1);
-    console.log(charCode);
+    // console.log(charCode);
     // Memorize the range index where the token begins.
     tokenStart = index;
     if (isIdentifierStart(charCode)) return scanIdentifierOrKeyword();
